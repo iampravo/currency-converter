@@ -1,4 +1,4 @@
-let exchangeRates = {}; // Cache for storing EUR-based rates
+let exchangeRates = {}; // Cache for storing default EUR-based rates
 let userCurrencies = new Set(); // User-selected currencies
 
 const baseCurrencySelect = document.getElementById("baseCurrency");
