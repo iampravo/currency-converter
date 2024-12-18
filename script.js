@@ -1,4 +1,4 @@
-let exchangeRates = {}; // Cache for storing default EUR-based rates
+let exchangeRates = {}; // Cache for storing EUR-based rates
 let userCurrencies = new Set(); // User-selected currencies
 
 const baseCurrencySelect = document.getElementById("baseCurrency");
@@ -10,7 +10,7 @@ const addCurrencyButton = document.getElementById("addCurrencyButton");
 
 // Function to fetch and cache rates
 const apiUrl = "https://data.fixer.io/api/latest";
-const apiKey = process.env.FIXER_IO_API_KEY; 
+const apiKey = process.env.FIXER_IO_API_KEY;
 
 async function fetchRates() {
     try {
