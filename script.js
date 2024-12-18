@@ -10,7 +10,7 @@ const addCurrencyButton = document.getElementById("addCurrencyButton");
 
 // Function to fetch and cache rates
 const apiUrl = "https://data.fixer.io/api/latest";
-const apiKey = process.env.FIXER_IO_API_KEY;
+const apiKey = "e648e419d83263fbec5d41d398bc8150";
 
 async function fetchRates() {
     try {
